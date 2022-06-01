@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */ 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {     
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+footer{
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+</style> -->
+
+<!-- <link rel="stylesheet" type="text/css" href="C:/Users/hp/Downloads/bootstrap-4.6.1-dist/bootstrap-4.6.1-dist/css/bootstrap.css"> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+ 
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">Hidden brand</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+ 
+
+ <!--  <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="">Tindog</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+     aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">News</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">About</a>
+        </li>
+    </ul>
+ </div>
+</nav> -->
+
+<p>
+  position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Cinque TerreBottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+All CSS Positioning Properties
+Property  Description
+bottom  Sets the bottom margin edge for a positioned box
+clip  Clips an absolutely positioned element
+left  Sets the left margin edge for a positioned box
+position  Specifies the type of positioning for an element
+right Sets the right margin edge for a positioned box
+top Sets the top margin edge for a positioned boxThe position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not posheight: 100px;
+  border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+
+
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+
+
+</p>
+
+<footer></footer>
+</body>
+</html>
+
+

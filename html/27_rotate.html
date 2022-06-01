@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>ROTATE</title>
+	<style>
+		div{
+
+			background-color: yellow;
+			width: 100px;
+			padding: 20px;
+			text-align: center;
+			margin: 100px auto;
+			transform: all 3s linear 2s;
+			transform-origin: left;
+		}
+		div:hover{
+			cursor: pointer;
+			/*	transform: perspective(200px) rotate(90deg);	*/
+			transform: perspective(200px) rotate3d(1.5, 1.7, 1.9, 45deg);
+		}
+
+	</style>
+</head>
+<body>
+	<div>HELLO!!</div>
+</body>
+</html>

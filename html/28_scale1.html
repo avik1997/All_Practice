@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Transform
+    </title>
+    <style>
+       
+        #box1{
+            background-color: yellow;
+            width: 300px;
+            height: 280px;
+            margin: 100px auto; 
+            border: 5px brown inset; 
+            overflow: hidden;   
+        }
+        #box2{
+            width: inherit;
+            height: inherit;
+            transform: all 5s linear 2s;
+            
+        }
+        #box2:hover{
+            cursor: pointer;
+            transform: translateY(-100%);
+           
+
+        }
+
+        #box3{
+            width: inherit;
+            height: inherit;
+            position: relative;
+        }
+        #box3:hover{
+            cursor: pointer;
+         /*   transform: translateY(-50%);*/
+            transform: scale(1.5);
+        }
+        #box4{
+            width: inherit;
+            height: inherit; 
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div id="box2">
+            <img src="../photos/happy.png" alt="">
+        </div>
+        <div id="box3">
+            <img src="../photos/parda1.jpg" alt="">
+        </div>
+        <div id="box4"></div>
+    </div>
+</body>
+</html>

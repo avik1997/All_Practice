@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+
+  <title>FLEX</title>
+  <style>
+    body{
+      margin: 0px;
+    }
+    div{
+      background-color: black;  
+      color: white;
+      height: 50px;
+      display: flex;
+      flex-direction: row; 
+      flex-wrap: wrap;
+      align-items: center; 
+      justify-content: center;
+      justify-content: space-between;  
+      position: relative;
+      
+
+    }
+    div h1{
+      margin: 0px;
+      padding: 5px;
+      color: red;
+
+    }
+    #b1 a{
+      color: palegreen;
+      text-decoration: none;
+
+    }
+    #b1 i{
+      padding: 2px;
+    }
+    #b1 a:hover{
+      background-color: yellow;
+      color: orange;
+      cursor: pointer;
+      width: inherit;
+      padding: 10px;
+         }
+
+      .bg {
+  /* The image used */
+  background-image: url("tib.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  </style>
+
+  <!-- animation link -->
+  <link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+
+  <!-- fontwasome link -->
+
+  <link rel="stylesheet" href="../fontawesome/css/all.css">
+</head>
+<body>
+    <!-- header -->
+      <header>
+          <nav>
+              <div>
+                <h1 class="animate__animated animate__bounce">TECHNO ENGENNERING COLLEGE BANIPUR</h1>
+                <div id="b1">
+                  <h1><a href=""><i class="fas fa-house-user"></i>HOME</a></h1>
+                  <h1><a href=""><i class="fas fa-address-card"></i>ABOUT</a></h1>
+                  <h1><a href=""><i class="fas fa-image"></i>GALARY</a></h1>
+                  <h1><a href=""><i class="fas fa-book-open"></i>COURSE</a></h1>
+                  <h1><a href=""><i class="fas fa-phone"></i>CONTACT</a></h1>
+                </div>              
+              </div>
+              
+          </nav>
+
+      </header>
+
+      <!-- aside -->
+      <div class="bg"></div>
+
+</body>
+</html>

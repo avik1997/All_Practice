@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>
+		Collage Registration Form
+	</title>
+	<style>
+		body{
+			background-color: #ff99cc;
+   			background-attachment: fixed;
+    		color: black;
+		}
+		fieldset{
+   			 background-color: #bfbfbf;
+    		 border: 2px solid black;
+   			 padding: 12px;
+   			 margin: 15px;
+ 			 border-radius: 20px 20px 20px 20px;
+    		 box-shadow: 0 0 10px black;
+    		 width: 1300px;
+    		 height: 500px;
+}
+		fieldset legend{
+   			 background-color: #ff5050;
+    		 padding: 12px 25px;
+    		 font-size: 20px;
+    		 border: 2px solid white;
+    		 border-radius: 20px 20px 20px 20px;
+   			 box-shadow: 0 0 10px black;
+}
+
+.button{
+    background-color: #ccffcc;
+    padding: 7px 9px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px black;
+    color: black;
+    width: 125px;
+}
+table td{
+    font-size: 18px;
+    padding: 5px;
+    tx
+}
+	
+	</style>
+</head>
+<body>
+	<div>
+		<form action="post">
+			<fieldset >
+				<legend>Registration Form</legend>
+				<table align="center">
+					<tr>
+						<td><label>University</label></td>
+						<td><input type="text" name="uname"></td>
+					</tr>
+					<tr>
+						<td><label>Institute</label></td>
+						<td><input type="text" name="iname"></td>
+					</tr>
+					<tr>
+						<td><label>Branch</label></td>
+						<td>
+							<select>
+								<option>-----Select-----</option>
+								<option>Banglore</option>
+								<option>Pune</option>
+								<option>Hydrabad</option>
+								<option>Kolkata</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Degree</label></td>
+						<td>
+							<select>
+								<option>---Select---</option>
+								<option>B.Tech</option>
+								<option>M.tech</option>
+								<option>M.B.A</option>
+								<option>B.E</option>
+							</select>
+						</td>
+						<td><input type="radio" name="r1" value="pursuing">Pursuing</td>	
+						<td><input type="radio" name="r1" value="completed">Completed</td>
+					</tr>
+					<tr>
+
+						<td><label>Average CPI</label></td>
+						<td><input type="number" name="num" value="date"></td>
+						<td>upto</td>
+						<td><input type="number" name="num" value="date"></td>
+						<td>Semester</td>
+					</tr>
+					
+					<tr>
+						<td><label>Experience</label></td>
+						<td><input type="number" name="num1" value="Years"></td>
+						<td>Years</td>
+					</tr>
+					<tr>
+						<td><label>Your Website or Blog</label></td>
+						<td><input type="url" name="blog"></td>
+					</tr><br><br>
+					<tr>
+                   <td></td>
+                    <td>
+                        <input type="submit" value="Submit" class="button">
+                    </td>
+                    <td>
+                        <input type="reset" value="Reset" class="button">
+                    </td>
+                    <td></td>
+				</table>
+
+			</fieldset>
+
+		</form>
+
+	</div>
+</body>
+</html>

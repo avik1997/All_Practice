@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>BALL JAMPING</title>
+	<style>
+		div{
+			position: relative;
+			top: 0px;
+			border-top: 2px solid black;
+		}
+		div span{
+			display: inline-block;
+			background: radial-gradient(red,green,yellow);
+			position: relative;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			border: 2px solid red;
+			box-shadow: 0 0 10px darkblue;
+			animation: ball 2s linear 0s infinite normal;
+
+		}
+
+		@keyframes ball
+		{
+			0%{
+
+				top:0px;
+				left: 0px;
+			}
+			10%{
+
+				top: 136px;
+				left: 0px;
+			}
+			20%{
+
+				top: -272px;
+				left:136px;
+		}
+			30%{
+
+				top: 544px;
+				left: 136px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<span></span>
+	</div>
+</body>
+</html>

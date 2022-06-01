@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>
+		MEDIA QUERIES
+	</title>
+	<style>
+		body{
+			background-color: yellow;
+		}
+		div{
+			text-align: center;
+			display: none;
+		}
+		div h1{
+			/*display: none;*/
+		}
+		@media screen and (min-width: 650px)
+/*		@media screen and (max-width: 0px) and (max-width: 500px)*/
+		 {
+  			body {
+   			 background-color: blue;
+  }
+		  div h1:nth-child(1){
+		  	display: block;
+		  }
+  		@media screen and (min-width: 800px) 
+/*@media screen and (max-width:501px) and (max-width: 700px)*/
+  		{
+ 			 body {
+   				 background-color: red;
+  }
+		  	div h1:nth-child(2){
+				  	display: block;
+				  }
+
+}
+		@media screen and (min-width: 1000px) 
+/*@media screen and (max-width:702px) and (max-width: 900px)*/
+
+		{
+  			body {
+    			background-color: green;
+  }
+			  	div h1:nth-child(3){
+					  	display: block;
+					  }
+}
+			@media screen and (min-width: 1360px)
+/*@media screen and (max-width:901px) */
+
+			 {
+			  			body {
+			    			background-color: green;
+			  }
+						  	div h1:nth-child(4){
+								  	display: block;
+								  }
+}
+@media screen and (min-width: 1360px)
+/*@media screen and (max-width:901px) */
+
+			 {
+			  			body {
+			    			background-color: green;
+			  }
+						  	div h1:nth-child(5){
+								  	display: block;
+								  }
+}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>MOBILE SCREEN</h1>
+		<h1>TABLET SCREEN</h1>
+		<h1>LAPTOP SCREEN</h1>
+		<h1>TV SCREEN</h1>
+	</div>
+</body>
+</html>
